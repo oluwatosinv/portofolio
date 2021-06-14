@@ -2,7 +2,7 @@ import React   from "react";
 import { Container, Row, Col } from 'reactstrap';
 import TextTransition, { presets } from "react-text-transition";
 import LottieAnimation from "./Lottie";
-import code from '../Animation/TOSIN ART.json'
+import code from '../Animation/TOSIN ART3.json'
 
 
 const Header = () => {
