@@ -22,8 +22,8 @@ const Nav2 = () => {
     const toggle = () => setIsOpen(!isOpen);
     return ( 
         <div>
-      <Navbar color="light" light expand="md">
-        <NavbarBrand href="/">reactstrap</NavbarBrand>
+      <Navbar dark expand="md">
+        <NavbarBrand className='brandName' href="/">OLuwatosin Faboade</NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
           <Nav className="mr-auto" navbar>
@@ -51,7 +51,6 @@ const Nav2 = () => {
               </DropdownMenu>
             </UncontrolledDropdown>
           </Nav>
-          <NavbarText>Simple Text</NavbarText>
         </Collapse>
       </Navbar>
     </div>

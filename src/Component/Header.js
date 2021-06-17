@@ -7,41 +7,18 @@ import code from '../Animation/TOSIN ART3.json'
 
 const Header = () => {
 
-    const TEXTS = [
-        "Oluwatosin Faboade",
-        "a Frontend developer",
-        "Tree",
-        "Color"
-      ];
-
-      const [index, setIndex] = React.useState(0);
-
-        React.useEffect(() => {
-            const intervalId = setInterval(() =>
-            setIndex(index => index + 1),
-            3000 // every 3 seconds
-            );
-        return () => clearTimeout(intervalId);
-      }, []);
+    
     
     return (
-        <container className='header'>
-            <Row>
-            <Col lg="6">
-                <h1>I'm  </h1>
-                <h1 className='headline'>
-                
-                    <TextTransition
-                        text={ TEXTS[index % TEXTS.length] }
-                        springConfig={ presets.stiff }
-                    />
-                </h1>
-            </Col>
-            <Col lg="6">
-             <LottieAnimation lotti={code}  />
-            </Col>
-            </Row>
-        </container>
+        <section className='header'>
+            <div className='head'>
+                <h1 className='heading-title'>Hey, I'm Oluwatosin,</h1>
+                <p className='heading-text'>A Front-End Developer, who focuses on building web apps with great user experience</p>
+            </div>
+            <div className='lottie'>
+                <LottieAnimation lotti={code}  />
+            </div>
+        </section>
       );
 }
  
