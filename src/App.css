@@ -1,7 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Arizonia&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Chivo:wght@300;400;700&family=Shippori+Mincho:wght@400;700&display=swap');
 
-
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
 
 .brandName{
   font-family: 'Arizonia', cursive;
@@ -11,6 +14,24 @@ p.heading-text {
   font-family: 'Chivo', sans-serif;
   font-weight: 300;
 }
+/* .stack {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 2em;
+  box-shadow:  0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+  padding: 3em;
+  max-width: 700px;
+}
+.stack > img {
+  width: 100%;
+  height: auto;
+  max-height: 250px;
+}
+
+.technology {
+  text-align: center;
+} */
 
 .header{
   /* background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1000%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='%230e2a47'%3e%3c/rect%3e%3cpath d='M910 273L909 509' stroke-width='6' stroke='url(%23SvgjsLinearGradient1001)' stroke-linecap='round' class='Down'%3e%3c/path%3e%3cpath d='M1169 151L1168 339' stroke-width='6' stroke='url(%23SvgjsLinearGradient1001)' stroke-linecap='round' class='Down'%3e%3c/path%3e%3cpath d='M1155 199L1154 550' stroke-width='6' stroke='url(%23SvgjsLinearGradient1001)' stroke-linecap='round' class='Down'%3e%3c/path%3e%3cpath d='M703 335L702 640' stroke-width='10' stroke='url(%23SvgjsLinearGradient1002)' stroke-linecap='round' class='Up'%3e%3c/path%3e%3cpath d='M830 458L829 688' stroke-width='6' stroke='url(%23SvgjsLinearGradient1002)' stroke-linecap='round' class='Up'%3e%3c/path%3e%3cpath d='M1405 551L1404 729' stroke-width='10' stroke='url(%23SvgjsLinearGradient1002)' stroke-linecap='round' class='Up'%3e%3c/path%3e%3cpath d='M271 385L270 149' stroke-width='10' stroke='url(%23SvgjsLinearGradient1002)' stroke-linecap='round' class='Up'%3e%3c/path%3e%3cpath d='M1090 480L1089 708' stroke-width='10' stroke='url(%23SvgjsLinearGradient1001)' stroke-linecap='round' class='Down'%3e%3c/path%3e%3cpath d='M1326 371L1325 112' stroke-width='8' stroke='url(%23SvgjsLinearGradient1002)' stroke-linecap='round' class='Up'%3e%3c/path%3e%3cpath d='M816 558L815 218' stroke-width='10' stroke='url(%23SvgjsLinearGradient1001)' stroke-linecap='round' class='Down'%3e%3c/path%3e%3cpath d='M1066 113L1065 -290' stroke-width='6' stroke='url(%23SvgjsLinearGradient1002)' stroke-linecap='round' class='Up'%3e%3c/path%3e%3cpath d='M821 445L820 684' stroke-width='10' stroke='url(%23SvgjsLinearGradient1001)' stroke-linecap='round' class='Down'%3e%3c/path%3e%3cpath d='M200 99L199 299' stroke-width='8' stroke='url(%23SvgjsLinearGradient1001)' stroke-linecap='round' class='Down'%3e%3c/path%3e%3cpath d='M1194 60L1193 -163' stroke-width='10' stroke='url(%23SvgjsLinearGradient1002)' stroke-linecap='round' class='Up'%3e%3c/path%3e%3cpath d='M959 471L958 121' stroke-width='8' stroke='url(%23SvgjsLinearGradient1001)' stroke-linecap='round' class='Down'%3e%3c/path%3e%3cpath d='M776 10L775 -360' stroke-width='10' stroke='url(%23SvgjsLinearGradient1002)' stroke-linecap='round' class='Up'%3e%3c/path%3e%3cpath d='M136 182L135 381' stroke-width='6' stroke='url(%23SvgjsLinearGradient1001)' stroke-linecap='round' class='Down'%3e%3c/path%3e%3cpath d='M1037 421L1036 784' stroke-width='8' stroke='url(%23SvgjsLinearGradient1001)' stroke-linecap='round' class='Down'%3e%3c/path%3e%3cpath d='M258 24L257 306' stroke-width='6' stroke='url(%23SvgjsLinearGradient1001)' stroke-linecap='round' class='Down'%3e%3c/path%3e%3cpath d='M677 57L676 377' stroke-width='8' stroke='url(%23SvgjsLinearGradient1001)' stroke-linecap='round' class='Down'%3e%3c/path%3e%3cpath d='M668 278L667 56' stroke-width='6' stroke='url(%23SvgjsLinearGradient1001)' stroke-linecap='round' class='Down'%3e%3c/path%3e%3cpath d='M163 421L162 766' stroke-width='8' stroke='url(%23SvgjsLinearGradient1001)' stroke-linecap='round' class='Down'%3e%3c/path%3e%3cpath d='M705 93L704 -246' stroke-width='10' stroke='url(%23SvgjsLinearGradient1001)' stroke-linecap='round' class='Down'%3e%3c/path%3e%3cpath d='M10 281L9 -124' stroke-width='10' stroke='url(%23SvgjsLinearGradient1001)' stroke-linecap='round' class='Down'%3e%3c/path%3e%3cpath d='M247 557L246 208' stroke-width='6' stroke='url(%23SvgjsLinearGradient1002)' stroke-linecap='round' class='Up'%3e%3c/path%3e%3cpath d='M1156 272L1155 477' stroke-width='6' stroke='url(%23SvgjsLinearGradient1002)' stroke-linecap='round' class='Up'%3e%3c/path%3e%3cpath d='M188 369L187 630' stroke-width='6' stroke='url(%23SvgjsLinearGradient1002)' stroke-linecap='round' class='Up'%3e%3c/path%3e%3cpath d='M1428 58L1427 206' stroke-width='8' stroke='url(%23SvgjsLinearGradient1001)' stroke-linecap='round' class='Down'%3e%3c/path%3e%3cpath d='M483 176L482 348' stroke-width='6' stroke='url(%23SvgjsLinearGradient1001)' stroke-linecap='round' class='Down'%3e%3c/path%3e%3cpath d='M1061 95L1060 -98' stroke-width='8' stroke='url(%23SvgjsLinearGradient1002)' stroke-linecap='round' class='Up'%3e%3c/path%3e%3cpath d='M1031 395L1030 175' stroke-width='10' stroke='url(%23SvgjsLinearGradient1002)' stroke-linecap='round' class='Up'%3e%3c/path%3e%3cpath d='M919 188L918 497' stroke-width='6' stroke='url(%23SvgjsLinearGradient1002)' stroke-linecap='round' class='Up'%3e%3c/path%3e%3cpath d='M856 412L855 757' stroke-width='6' stroke='url(%23SvgjsLinearGradient1002)' stroke-linecap='round' class='Up'%3e%3c/path%3e%3cpath d='M956 550L955 911' stroke-width='10' stroke='url(%23SvgjsLinearGradient1002)' stroke-linecap='round' class='Up'%3e%3c/path%3e%3cpath d='M934 393L933 74' stroke-width='6' stroke='url(%23SvgjsLinearGradient1001)' stroke-linecap='round' class='Down'%3e%3c/path%3e%3cpath d='M85 368L84 84' stroke-width='10' stroke='url(%23SvgjsLinearGradient1002)' stroke-linecap='round' class='Up'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1000'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3clinearGradient x1='0%25' y1='0%25' x2='0%25' y2='100%25' id='SvgjsLinearGradient1001'%3e%3cstop stop-color='rgba(28%2c 83%2c 142%2c 0)' offset='0'%3e%3c/stop%3e%3cstop stop-color='%231c538e' offset='1'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='0%25' y1='100%25' x2='0%25' y2='0%25' id='SvgjsLinearGradient1002'%3e%3cstop stop-color='rgba(28%2c 83%2c 142%2c 0)' offset='0'%3e%3c/stop%3e%3cstop stop-color='%231c538e' offset='1'%3e%3c/stop%3e%3c/linearGradient%3e%3c/defs%3e%3c/svg%3e"); */
@@ -57,11 +78,15 @@ nav{
     }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
   .header {
     display: block;
-    height: 80vh;
+    height: 90vh;
     padding: 3em;
+    padding-top: 2em;
+  }
+  .technology{
+    display: none;
   }
 
   /* .lottie{
@@ -70,6 +95,13 @@ nav{
   nav.navbar.navbar-expand-md.navbar-dark {
     padding-left: 2em;
     padding-right: 1em;
+  }
+  .stack2 {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+  }
+  .stack2 > img {
+    width: 100%;
   }
 }
 
@@ -84,11 +116,26 @@ nav{
     padding-left: 3em;
     padding-right: 3em;
   }
+  .stack {
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+    width: 100%;
+    align-items: center;
+    padding-top: 3em;
+  }
+  .stack >img {
+    width: 100%;
+  }
+  .technology2{
+    display: none;
+  }
 }
+
 
 @media only screen and (min-width: 992px) {
   h1.heading-title {
     font-size: 80px;
+    line-height: 72px;
   }
   section.header {
     padding: 3em;
@@ -99,4 +146,26 @@ nav{
     font-size: 32px;
     margin-top: 16px;
   }
+
+  .technology2{
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 1600px) {
+  h1.heading-title {
+    font-size: 180px;
+    line-height: 202px;
+  }
+  section.header {
+    padding: 15em;
+    padding-top: 10em;
+    height: 95vh;
+  }
+  p.heading-text {
+    font-size: 80px;
+    margin-top: 26px;
+  }
+
+  
 }
